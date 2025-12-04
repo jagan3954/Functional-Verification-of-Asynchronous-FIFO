@@ -61,7 +61,7 @@ This experiment verifies FIFO behavior through **random stimulus generation** an
 ## SystemVerilog Code
 
 ### Asynchronous FIFO Design (`async_fifo.sv`)
-```
+~~~
 module async_fifo #(
     parameter DATA_WIDTH = 8,
     parameter DEPTH = 8
@@ -107,7 +107,7 @@ module async_fifo #(
 
 endmodule
       
-```
+~~~
 ### Testbench
 ```systemverilog
 module fifo_tb;
